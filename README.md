@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/sandkum5/ucs_findCIMC)
+
 # ucs_findCIMC
 
 - Script to find UCS C-series Servers in a subnet
