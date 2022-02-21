@@ -1,7 +1,6 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/sandkum5/ucs_findCIMC)
 
 # ucs_findCIMC
-
 - Script to find UCS C-series Servers in a subnet
 - Get UCS CIMC Product,Vendor Info using Redfish API without Auth
 
@@ -13,8 +12,19 @@
   - Go to Admin > Communication Services > Communication Services > Redfish Properties 
   - `Redfish Enabled` checkbox should be checked
 
+### Pre-requisites
+- PowerShell
+  - For PowerShell installation, refer: [Install PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2)
 
-`Sample Output:`
+### How to Run
+- Assign executable permissions to the findCIMC.ps1 file.
+- To execute, run: ./findCIMC.ps1
+- Enter a Subnet ID in format x.y.z. The subnet ID in which you want to search UCS C-series servers.
+- Enter the Start IP and End IP in the subnet.
+- UCS servers will return a Product Id and Company attributes and others won't.
+
+
+`Sample Run:`
 
 ```
 > ./findCIMC.ps1
