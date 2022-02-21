@@ -16,8 +16,9 @@
 - PowerShell
   - For PowerShell installation, refer: [Install PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2)
 
-### How to Run
-- Assign executable permissions to the findCIMC.ps1 file.
+### Steps
+- Clone this github repo or save the findCIMC.ps1 contents to a local file findCIMC.ps1
+- Assign executable permissions to the findCIMC.ps1
 - To execute, run: ./findCIMC.ps1
 - Enter a Subnet ID in format x.y.z. The subnet ID in which you want to search UCS C-series servers.
 - Enter the Start IP and End IP in the subnet.
