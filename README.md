@@ -1,6 +1,6 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/sandkum5/ucs_findCIMC)
 
-# ucs_findCIMC
+# Find UCS C-Series Servers in a Subnet
 - Script to find UCS C-series Servers in a subnet
 - Get UCS CIMC Product,Vendor Info using Redfish API without Auth
 
